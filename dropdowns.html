@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>nothing</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="assets/js/docs.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h2>Bootstrap Goodies <small>This is an h2 heading</small></h2>
+
+		<ul class="nav nav-tabs">
+			<li><a href="text.html">Text</a></li>
+			<li><a href="tables.html">Tables</a></li>
+			<li><a href="forms.html">Forms</a></li>
+			<li><a href="buttons.html">Buttons and Images</a></li>
+			<li class="active"><a href="dropdowns.html">Dropdowns and Navbars</a></li>
+
+			<li>
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					Dropdown <span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu">
+					<li class="dropdown-header">Header</li>
+					<li><a href="#">Action</a></li>
+					<li><a href="#">other stuff</a></li>
+					<li class="divider"></li>
+					<li class="dropdown-header">Dropkick Jesus</li>
+					<li><a href="#">Out of your cheatin' heart</a></li>
+					<li class="disabled"><a href="#">I'm Disabled</a></li>
+				</ul>
+			</li>
+		</ul>
+
+		<h3>Dropdowns</h3>
+		<div class="dropdown">
+			<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+				Uses .dropdown class, uglier
+				<span class="caret"></span>
+			</button>
+
+			<ul class="dropdown-menu">
+				<li class="dropdown-header">Header</li>
+				<li><a href="#">Action</a></li>
+				<li><a href="#">other stuff</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Dropkick Jesus</li>
+				<li><a href="#">Out of your cheatin' heart</a></li>
+				<li class="disabled"><a href="#">I'm Disabled</a></li>
+			</ul>
+		</div>
+
+		<div class="btn-group dropup">
+		  <button type="button" class="btn btn-danger">Split Button Dropup Menu Thing</button>
+		  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+		    <span class="caret"></span>
+		    <span class="sr-only">Toggle Dropdown</span>
+		  </button>
+		  <ul class="dropdown-menu" role="menu">
+		    <li><a href="#">Action</a></li>
+		    <li><a href="#">Another action</a></li>
+		    <li><a href="#">Something else here</a></li>
+		    <li class="divider"></li>
+		    <li><a href="#">Separated link</a></li>
+		  </ul>
+		</div>
+
+		<h3>Navbars</h3>
+
+		<h3>Panels</h3>
+		<div class="panel panel-default">
+			<div class="panel-body">
+				Panel Crap
+			</div>
+		</div>
+
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				Panel Heading
+			</div>
+			<div class="panel-body">
+				Panel Body
+			</div>
+
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<td>head1</td>
+						<td>head2</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="danger">danger</td>
+						<td>dumb</td>
+					</tr>
+					<tr>
+						<td>whatever man</td>
+						<td class="info">info</td>
+					</tr>
+					<tr>
+						<td>stupid</td>
+						<td class="success">success</td>
+					</tr>
+					<tr class="warning">
+						<td>warning</td>
+						<td>warning</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td>foot1</td>
+						<td>foot2</td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+
+	</div>
+</body>
+</html>

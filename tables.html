@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>nothing</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="assets/js/docs.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h2>Bootstrap Goodies <small>This is an h2 heading</small></h2>
+
+		<ul class="nav nav-tabs">
+			<li><a href="text.html">Text</a></li>
+			<li class="active"><a href="tables.html">Tables</a></li>
+			<li><a href="forms.html">Forms</a></li>
+			<li><a href="buttons.html">Buttons and Images</a></li>
+			<li><a href="dropdowns.html">Dropdowns and Navbars</a></li>
+		</ul>
+		
+		<h3>Tables</h3>
+		this one uses:
+		<dl class="dl-horizontal">
+			<dt><code>table-striped</code></dt>
+			<dd>to make it stripey</dd>
+			<dt><code>table-hover</code></dt>
+			<dd>to make the rows in the body darker when hovering</dd>
+			<dt><code>table-bordered</code></dt>
+			<dd>to give it a border</dd>
+		</dl>
+		
+		<div class="table-responsive"> <!-- not working??? -->
+			<table class="table table-striped table-hover table-bordered">
+				<thead>
+					<tr>
+						<td>head1</td>
+						<td>head2</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="danger">danger</td>
+						<td>dumb</td>
+					</tr>
+					<tr>
+						<td>whatever man</td>
+						<td class="info">info</td>
+					</tr>
+					<tr>
+						<td>stupid</td>
+						<td class="success">success</td>
+					</tr>
+					<tr class="warning">
+						<td>warning</td>
+						<td>warning</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td>foot1</td>
+						<td>foot2</td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
